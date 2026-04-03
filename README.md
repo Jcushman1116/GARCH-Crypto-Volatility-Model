@@ -26,7 +26,7 @@ BTC squared returns and squared log returns proceed to modeling.
 **3. ACF/PACF analysis** — Autocorrelation and partial autocorrelation plots are
 examined across 40 lags to inform model order selection.
 
-**4. Model fitting and selection** — ARCH($p$) and GARCH($p$,$q$) models are fit using
+**4. Model fitting and selection** — ARCH($p$) and GARCH(p,q) models are fit using
 the `arch` library. Model order is selected using a combination of AIC/BIC values and
 the Log-Likelihood Ratio (LLR) test:
 
